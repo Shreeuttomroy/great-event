@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "title":"Conferences and Seminars",
+        "price":2500,
+        "img":"https://i.ibb.co/HNMV2SK/conference.jpg",
+        "desc":{
+            "title":"This type of event is ideal for presenting new products or services to potential customers and providing educational workshops on particular topics.",
+            "ptitle":"Why Choose Us for Your Conference:",
+            "pdesc":"We start by understanding your conference objectives and target audience. Whether it's a corporate summit, academic symposium, or industry convention, we develop a tailored strategy to achieve your goals.Our extensive network allows us to secure top-tier venues that align with the theme and size of your conference. We negotiate favorable contracts and manage all logistical aspects.We curate a lineup of industry-leading speakers, thought leaders, and experts who will inspire and educate your attendees. Our team handles speaker invitations, logistics, and presentations."
+        }
+    },
+    {
+        "id":2,
+        "title":"Trade Show & Expo",
+        "price":2500,
+        "img":"https://i.ibb.co/3d8TFqr/exobhition.jpg",
+        "desc":{
+            "title":"An invaluable platform for showcasing products and services as well as interacting with potential customers.",
+            "ptitle":"Why Choose Us for Your Conference:",
+            "pdesc":"We start by understanding your conference objectives and target audience. Whether it's a corporate summit, academic symposium, or industry convention, we develop a tailored strategy to achieve your goals.Our extensive network allows us to secure top-tier venues that align with the theme and size of your conference. We negotiate favorable contracts and manage all logistical aspects.We curate a lineup of industry-leading speakers, thought leaders, and experts who will inspire and educate your attendees. Our team handles speaker invitations, logistics, and presentations."
+        }
+    },
+    {
+        "id":3,
+        "title":"Networking Events",
+        "price":2500,
+        "img":"https://i.ibb.co/NmSSVqL/network.png",
+        "desc":{
+            "title":" A great way for employees to get to know each other better and build team spirit.",
+            "ptitle":"Why Choose Us for Your Conference:",
+            "pdesc":"We start by understanding your conference objectives and target audience. Whether it's a corporate summit, academic symposium, or industry convention, we develop a tailored strategy to achieve your goals.Our extensive network allows us to secure top-tier venues that align with the theme and size of your conference. We negotiate favorable contracts and manage all logistical aspects.We curate a lineup of industry-leading speakers, thought leaders, and experts who will inspire and educate your attendees. Our team handles speaker invitations, logistics, and presentations."
+        }
+    },
+    {
+        "id":4,
+        "title":"Workshops & Training Events",
+        "price":2500,
+        "img":"https://i.ibb.co/SVnmRs6/Workshops-trainingevents.jpg",
+        "desc":{
+            "title":" A great way for employees to get to know each other better and build team spirit",
+            "ptitle":"Why Choose Us for Your Conference:",
+            "pdesc":"We start by understanding your conference objectives and target audience. Whether it's a corporate summit, academic symposium, or industry convention, we develop a tailored strategy to achieve your goals.Our extensive network allows us to secure top-tier venues that align with the theme and size of your conference. We negotiate favorable contracts and manage all logistical aspects.We curate a lineup of industry-leading speakers, thought leaders, and experts who will inspire and educate your attendees. Our team handles speaker invitations, logistics, and presentations."
+        }
+    },
+    {
+        "id":5,
+        "title":"VIP & Leadership Events",
+        "price":2500,
+        "img":"https://i.ibb.co/h1ZkdVN/vip.png",
+        "desc":{
+            "title":" A great way for employees to get to know each other better and build team spirit",
+            "ptitle":"Why Choose Us for Your Conference:",
+            "pdesc":"We start by understanding your conference objectives and target audience. Whether it's a corporate summit, academic symposium, or industry convention, we develop a tailored strategy to achieve your goals.Our extensive network allows us to secure top-tier venues that align with the theme and size of your conference. We negotiate favorable contracts and manage all logistical aspects.We curate a lineup of industry-leading speakers, thought leaders, and experts who will inspire and educate your attendees. Our team handles speaker invitations, logistics, and presentations."
+        }
+    },
+    {
+        "id":6,
+        "title":"Round-Tables & Summit",
+        "price":2500,
+        "img":"https://i.ibb.co/rZCdC7y/roundtable.jpg",
+        "desc":{
+            "title":" These are ideal for networking events, team-building activities, and celebrating corporate milestones",
+            "ptitle":"Why Choose Us for Your Conference:",
+            "pdesc":"We start by understanding your conference objectives and target audience. Whether it's a corporate summit, academic symposium, or industry convention, we develop a tailored strategy to achieve your goals.Our extensive network allows us to secure top-tier venues that align with the theme and size of your conference. We negotiate favorable contracts and manage all logistical aspects.We curate a lineup of industry-leading speakers, thought leaders, and experts who will inspire and educate your attendees. Our team handles speaker invitations, logistics, and presentations.An event budget will help ensure that you stick to your spending plan and that all expenses are accounted for. You’ll also need to set aside funds for unexpected costs that may come up during the planning process."
+        }
+    }
+]
