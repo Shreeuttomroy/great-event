@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 function Card({d}) {
     return ( 
         <>
@@ -7,7 +8,7 @@ function Card({d}) {
                 <img className=" rounded-lg my-2 w-full h-48" src={d.img} alt="Services" />
             </div>
             <h1 className=' text-2xl font-bold my-3'>{d.title}</h1>
-            <button className=' bg-blue-500 text-white font-bold p-2 rounded-md'>Book & Details</button>
+            <button className=' bg-blue-500 text-white font-bold p-2 rounded-md'><Link to={`/${d.id}`}>Book & Details</Link></button>
         </div>
         </>
      );

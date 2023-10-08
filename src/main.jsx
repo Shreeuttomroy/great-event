@@ -5,6 +5,8 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Details from './components/Details/Details.jsx'
 import Home from './components/Home.jsx'
+import Login from './components/Login.jsx'
+import Register from './components/Register.jsx'
 
 const routes= createBrowserRouter([
   {
@@ -19,16 +21,16 @@ const routes= createBrowserRouter([
       },
       {
         path:"login",
-        element: <h1>Log-in</h1>
+        element: <Login></Login>
       },
       {
         path:"register",
-        element: <h1>Register</h1>
+        element: <Register></Register>
       },
       {
-        path:"detail/:id",
+        path:"/:id",
+        loader:()=>fetch("data.json"),
         element: <Details></Details>,
-        loader:(params)=>fetch(`data.json/${params.id}`)
       }
     ]
   }

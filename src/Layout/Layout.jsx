@@ -5,9 +5,11 @@ import Footer from './Footer';
 function Layout() {
   return (
     <>
+    <div className=" 2xl:w-[1500px] mx-auto">
     <Navbar></Navbar>
     <Outlet></Outlet>
     <Footer></Footer>
+    </div>
     </>
   )
 }

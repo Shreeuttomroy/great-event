@@ -7,9 +7,6 @@ function Navbar() {
         <NavLink to="">Home</NavLink>
       </li>
       <li>
-        <NavLink to="details/:id">Details</NavLink>
-      </li>
-      <li>
         <NavLink to="login">Login</NavLink>
       </li>
       <li>
@@ -22,7 +19,6 @@ function Navbar() {
       <li>
         <NavLink to="">Home</NavLink>
       </li>
-      <li><NavLink to="details">Details</NavLink></li>
       <li>
         <NavLink to="login">Login</NavLink>
       </li>
