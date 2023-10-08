@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import Layout from './Layout/Layout.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Details from './components/Details/Details.jsx'
+import Home from './components/Home.jsx'
 
 const routes= createBrowserRouter([
   {
@@ -12,7 +14,8 @@ const routes= createBrowserRouter([
     children:[
       {
         path:"",
-        element: <div>Home</div>
+        element: <Home></Home>,
+        loader:()=>fetch("data.json")
       },
       {
         path:"login",
@@ -21,6 +24,11 @@ const routes= createBrowserRouter([
       {
         path:"register",
         element: <h1>Register</h1>
+      },
+      {
+        path:"detail/:id",
+        element: <Details></Details>,
+        loader:(params)=>fetch(`data.json/${params.id}`)
       }
     ]
   }
