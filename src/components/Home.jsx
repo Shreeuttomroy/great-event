@@ -4,7 +4,6 @@ import Support from "./support.png";
 import Card from "./Card";
 function Home() {
   const data = useLoaderData();
-  console.log(data);
   return (
     <>
       <div>
