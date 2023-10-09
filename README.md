@@ -1,8 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# [GreatEvent](https://greatevent-b29c5.web.app/)
+* ## Features
+  - We are provied sign-in and create account with email, password and google 
+  - We are used firebase authentication
+  - When user click details button if user not sign-in then redirect sign in page
+  - After sign-in user automatically redirect location and home
+  - When user sign-in also show privates routes
+## Live Link
+  [GreatEvent](https://greatevent-b29c5.web.app/)
