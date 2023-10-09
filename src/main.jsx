@@ -10,6 +10,7 @@ import Register from './components/Register.jsx'
 import Athentic from './Provider/Authentic.jsx'
 import Profile from './components/profile/Profile.jsx'
 import Private from './PrivateRoutes/Private.jsx'
+import Orders from './components/order/Orders.jsx'
 
 const routes= createBrowserRouter([
   {
@@ -41,7 +42,7 @@ const routes= createBrowserRouter([
       },
       {
         path:"order",
-        element:<Private><h1>Hello Order</h1></Private>
+        element:<Private><Orders></Orders></Private>
       }
     ]
   }

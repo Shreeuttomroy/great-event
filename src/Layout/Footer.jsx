@@ -43,7 +43,7 @@ function Footer() {
           </div>
         </nav>
         <aside>
-          <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+          <p>Copyright © 2023 - All right reserved by <span className=" text-orange-400 font-bold">GreatEvent</span></p>
         </aside>
       </footer>
     </>

@@ -1,15 +1,36 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 function Details() {
   const [data, setData] = useState(0);
   const datas = useLoaderData();
   const { id } = useParams();
+  const bookings = [];
   useEffect(() => {
     const service = datas?.find((d) => d.id == id);
     setData(service);
   }, [id, datas]);
   const { title, price, img, desc } = data;
+
+  const handleBooking=()=>{
+    const localData = JSON.parse(localStorage.getItem("booked"));
+    console.log(localData)
+    if (!localData) {
+      bookings.push(data);
+      localStorage.setItem("booked", JSON.stringify(bookings));
+      swal("Thanks for booking!");
+    } else {
+      const isExits = localData.find((d) => d.id == id);
+      if (!isExits) {
+        bookings.push(...localData, data);
+        localStorage.setItem("booked", JSON.stringify(bookings));
+        swal("Thanks for booking!");
+      } else {
+        swal("Already, You are booked!");
+      }
+    }
+  }
   return (
     <>
       {data && (
@@ -31,7 +52,7 @@ function Details() {
                 <p>{desc.pdesc}</p>
               </div>
             </div>
-            <button className=" bg-blue-500 text-white rounded-md px-4 py-2  my-3 font-bold text-xl">
+            <button onClick={handleBooking} className=" bg-blue-500 text-white rounded-md px-4 py-2  my-3 font-bold text-xl">
               Booking Now
             </button>
           </div>
